@@ -4,8 +4,8 @@ block content
   div(ng-controller='DashboardCtrl')
     div(ng-controller='BlackjackCtrl').col-md-12.game
       div.col-md-3
-        input(type='text', placeholder='Bet amount:', ng-model="betAmount")
         input(type='text', placeholder='Name:', ng-model="player")
+        input(type='text', placeholder='Bet amount:', ng-model="betAmount")
         p Player: {{player}}
         p Wallet: {{playerWallet}}
         p Pot: {{pot}}
